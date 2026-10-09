@@ -2417,3 +2417,44 @@ dl.faq dd::before{
 		text-align: left;
 	}
 }
+
+
+
+/*------------------- インフル予約追従ボタン(期間限定) -------------------*/
+.influenza-fixed-btn {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 100px;
+	height: 100px;
+	padding: 3px;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #70B879;
+	color: #fff;
+	font-size: .8rem;
+	font-weight: bold;
+	line-height: 1.5;
+	text-decoration: none;
+	text-align: center;
+	z-index: 9999;
+	transform: scale(1.0);
+	transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+.influenza-fixed-btn i {
+	display: block;
+	font-size: 1rem;
+	line-height: 1;
+	margin-bottom: 8px;
+}
+.influenza-fixed-btn:hover {
+	transform: scale(1.05);
+}
+@media(max-width: 767px) {
+	.influenza-fixed-btn {
+		bottom: 75px;
+	}
+}
