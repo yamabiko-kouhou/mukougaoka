@@ -1973,6 +1973,10 @@ a.ap {
 .yobou-table thead th:last-of-type {
 	border-right: 2px solid #ADC4C7;
 }
+.yobou-table tbody th,
+.yobou-table tbody td {
+	background-color: #fff;
+}
 .yobou-table tbody th {
 	text-align: center;
 }
